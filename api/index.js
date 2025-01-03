@@ -23,7 +23,7 @@ const __dirname = path.dirname(__filename);
 console.log("Mongo URI:", process.env.MONGO);
 // app.use("/uploads", express.static(path.resolve(__dirname, "uploads")));
 app.use("/uploads", express.static(path.join(__dirname, "uploads")));
-app.use(cors({ origin: "https://bookingapp-client-4se4.onrender.com/" }));
+app.use(cors({ origin: "https://bookingapp-client-4se4.onrender.com" }));
 const connect = async () => {
     try {
         await mongoose.connect(process.env.MONGO)
