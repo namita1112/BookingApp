@@ -1,2 +1,2 @@
 # BookingAPP
-This is for hotel booking App. (Creating using MERN)
+ Book your perfect hilltop retreat in Mahabaleshwar’s serene heights.
