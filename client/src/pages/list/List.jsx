@@ -17,7 +17,7 @@ const List = () => {
   const [min, setMin] = useState(undefined);
   const [max, setMax] = useState(undefined);
   
-  const baseURL = "/hotels";
+  const baseURL = "https://bookingapp-api-cog2.onrender.com/api/hotels";
   const params = [];
 
   if (destination) params.push(`city=${destination}`);
