@@ -25,7 +25,7 @@ const Hotel = () => {
   const [slideNumber, setSlideNumber] = useState(0);
   const [open, setOpen] = useState(false);
   const [openModal, setOpenModal] = useState(false);
-  const { data, loading, error, refetch } = useFetch(`/hotels/find/${id}`)
+  const { data, loading, error, refetch } = useFetch(`https://bookingapp-api-cog2.onrender.com/api/hotels/find/${id}`)
   console.log("hotel data: ",data);
 
   const {date, options} = useContext(SearchContext);
