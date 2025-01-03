@@ -86,7 +86,7 @@ const Hotel = () => {
               onClick={() => handleMove("l")}
             />
             <div className="sliderWrapper">
-              <img src={`http://localhost:8080/${data.photos[slideNumber]}`} alt="" className="sliderImg" />
+              <img src={`https://bookingapp-api-cog2.onrender.com/${data.photos[slideNumber]}`} alt="" className="sliderImg" />
               {/* <img src={data.photos[slideNumber]} alt="" className="sliderImg" /> */}
             </div>
             <FontAwesomeIcon
@@ -114,7 +114,7 @@ const Hotel = () => {
               <div className="hotelImgWrapper" key={i} style={{ position: 'relative' }}>
               <img
                 onClick={() => handleOpen(i)}
-                src={`http://localhost:8080/${photo}`}
+                src={`https://bookingapp-api-cog2.onrender.com/${photo}`}
                 alt=""
                 className="hotelImg"
                 style={{
