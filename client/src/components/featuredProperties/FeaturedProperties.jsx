@@ -3,7 +3,7 @@ import useFetch from "../../hooks/useFetch";
 import "./featuredProperties.css";
 
 const FeaturedProperties = () => {
-  const { data, loading, error } = useFetch("/hotels");
+  const { data, loading, error } = useFetch("https://bookingapp-api-cog2.onrender.com/api/hotels");
   const hotelsPerPage = 20; // Number of hotels per page
   const hotelsPerRow = 4; // Number of hotels in each row
 
