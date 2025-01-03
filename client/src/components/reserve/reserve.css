@@ -1,0 +1,54 @@
+.reserve{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.418);
+    position: fixed;
+    top:0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rContainer{
+    background-color: white;
+    padding: 20px;
+    position: relative;
+    border-radius: 5px;
+}
+
+.rClose{
+    position: absolute;
+    top:0;
+    right: 0;
+    cursor: pointer;
+    padding: 20px; 
+}
+
+.rItem{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+.rItem>input{
+    width: 300px;
+    height: 20px;
+    padding: 5px;
+    border: none;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.rItem>button{
+    align-items: center;
+    height: 30px;
+    width: 100%;
+    background-color: #0071c2;
+    color: white;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
