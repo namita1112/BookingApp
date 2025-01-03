@@ -5,7 +5,7 @@ const SearchItem = ({item}) => {
   return (
     <div className="searchItem">
       <img
-        src={`http://localhost:8080/${item.photos[0]}`}
+        src={`https://bookingapp-api-cog2.onrender.com/${item.photos[0]}`}
         alt=""
         className="siImg"
       />
